@@ -27,8 +27,26 @@ function TeacherList() {
       <main>
         <article className="teacher-item">
           <header>
-            <img src="" alt="" />
+            <img
+              src="https://avatars.githubusercontent.com/u/59943388?v=4"
+              alt="Rodrigo Lucas"
+            />
+            <div>
+              <strong>Rodrigo Lucas</strong>
+              <span>História</span>
+            </div>
           </header>
+          <p>Historia antiga.</p>
+
+          <footer>
+            <p>
+              Preço/Hora
+              <strong>R$ 80,00</strong>
+            </p>
+            <button type="button">
+              <img src="" alt="" />
+            </button>
+          </footer>
         </article>
       </main>
     </div>
