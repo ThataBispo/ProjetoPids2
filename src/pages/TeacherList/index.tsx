@@ -1,5 +1,5 @@
+import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
 import PageHeader from "../../components/PageHeader";
-
 import "./styles.css";
 
 function TeacherList() {
@@ -44,7 +44,8 @@ function TeacherList() {
               <strong>R$ 80,00</strong>
             </p>
             <button type="button">
-              <img src="" alt="" />
+              <img src={whatsappIcon} alt="whatsapp" />
+              Entrar em contato
             </button>
           </footer>
         </article>
