@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 
-import landingImg from "../../assets/landing.png";
-import logoImg from "../../assets/logo.png";
-import studyIcon from "../../assets/images/icons/study.svg";
+// import landingImg from "../../assets/landing.png";
+// import logoImg from "../../assets/logo.png";
 import giveClassesIcon from "../../assets/images/icons/give-classes.svg";
 import purpleHeartIcon from "../../assets/images/icons/purple-heart.svg";
+import studyIcon from "../../assets/images/icons/study.svg";
+import landingImg from "../../assets/images/landing.svg";
+import logoImg from "../../assets/images/logo.svg";
 
 import "./styles.css";
 

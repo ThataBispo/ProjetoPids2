@@ -6,10 +6,8 @@
   justify-content: center;
   align-items: center;
 
-  /* color: var(--color-text-in-primary); */
-  color: #5271ff;
-  /* background: var(--color-primary); */
-  background: #f2f2fb;
+  color: var(--color-text-in-primary);
+  background: var(--color-primary);
 }
 
 .logo-container img {
@@ -42,17 +40,16 @@
   width: 30rem;
   height: 10.4rem;
   border-radius: 0.8rem;
-  font: 700 2rem Archivo;
-
+  font: 700 2.0rem Archivo;
+  
   display: flex;
   align-items: center;
   justify-content: center;
 
   text-decoration: none;
-  /* color: var(--color-button-text); */
-  color: #47248f;
+  color: var(--color-button-text);
 
-  transition: opacity 0.2s;
+  transition: background-color 0.2s;
 }
 
 .buttons-container a:first-child {
@@ -64,36 +61,34 @@
 }
 
 .buttons-container a.study {
-  background: #3f3781;
-  color: #fff;
+  background: var(--color-primary-lighter);
 }
 
 .buttons-container a.give-classes {
-  background: #5271ff;
-  color: #fff;
+  background: var(--color-secundary);
 }
 
 .buttons-container a.study:hover {
-  opacity: 0.9;
+  background: var(--color-primary-light);
 }
 
 .buttons-container a.give-classes:hover {
-  opacity: 0.9;
+  background: var(--color-secundary-dark);
 }
 
 .buttons-container a img {
   margin-right: 2.4rem;
 }
 
-.total {
-  font-size: 1.8rem;
+.total-connections {
+  font-size: 1.4rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.total img {
+.total-connections img {
   margin-left: 0.8rem;
 }
 
@@ -104,9 +99,10 @@
     display: grid;
     grid-template-rows: 350px 1fr;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas:
+    grid-template-areas: 
       "logo hero hero"
-      "buttons buttons total";
+      "buttons buttons total"
+    ;
   }
 
   .logo-container {
@@ -139,7 +135,7 @@
     font-size: 2.4rem;
   }
 
-  .total {
+  .total-connections {
     grid-area: total;
     justify-self: end;
   }
